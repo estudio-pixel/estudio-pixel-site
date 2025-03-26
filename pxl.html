@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estúdio Pixel - Desenvolvimento Web Profissional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7K5XSPL9X"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-S7K5XSPL9X');
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+</head>
+<body class="font-[Poppins] bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg fixed w-full z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <span class="text-2xl text-blue-600">Estúdio</span>&nbsp;
+                    <span class="text-2xl font-bold text-blue-600"> Pixel</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#inicio" class="text-gray-600 hover:text-blue-600">Início</a>
+                    <a href="#servicos" class="text-gray-600 hover:text-blue-600">Serviços</a>
+                    <a href="#sobre" class="text-gray-600 hover:text-blue-600">Sobre</a>
+                    <a href="#contato" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">Contato</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative pt-64 pb-40">
+        <!-- Vídeo de fundo -->
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+            <source src="images/7148574-uhd_3840_2160_25fps.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+        
+        <!-- Sobreposição para melhor contraste -->
+        <div class="absolute inset-0 bg-blue-600 bg-opacity-50"></div>
+        
+        <!-- Conteúdo -->
+        <div class="relative container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-8">
+                Soluções digitais para alavancar seu negócio
+            </h1>
+            <p class="text-xl text-white opacity-90 mb-12 max-w-3xl mx-auto">
+                Desenvolvimento web profissional e estratégias digitais sob medida para sua empresa
+            </p>
+            <a href="https://wa.me/5547991532309" class="bg-white text-blue-600 px-8 py-3 rounded-full text-lg font-semibold hover:shadow-xl" target="_blank">
+                Fale Conosco pelo WhatsApp
+            </a>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="servicos" class="py-40">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Nossos Serviços</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <!-- <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-code text-blue-600 text-2xl"></i> -->
+                        <div class="mb-4">
+                            <img src="/images/s1.jpg" alt="Sites Institucionais" class="w-full h-40 object-cover rounded-lg">
+                            </div>
+                    <h3 class="text-xl font-bold mb-3">Sites Institucionais</h3>
+                    <p class="text-gray-600">Desenvolvimento de websites modernos e responsivos que convertem visitantes em clientes</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="mb-4">
+                        <img src="/images/s2.jpg" alt="Plataformas Customizadas" class="w-full h-40 object-cover rounded-lg">
+                        </div>
+                    <h3 class="text-xl font-bold mb-3">Plataformas Customizadas</h3>
+                    <p class="text-gray-600">Soluções web complexas e sistemas administrativos personalizados</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="mb-4">
+                        <img src="/images/s3.jpg" alt="Manutenção Contínua" class="w-full h-40 object-cover rounded-lg">
+                        </div>
+                    <h3 class="text-xl font-bold mb-3">Manutenção Contínua</h3>
+                    <p class="text-gray-600">Atualizações, segurança e otimização contínua para seu site</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="bg-gray-100 py-40">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-16">Sobre Nós</h2>
+            
+            <p class="text-xl opacity-90 mb-12 max-w-3xl mx-auto">
+                Somos <span class="text-blue-600"> especialistas</span> em <span class="text-orange-600"> desenvolvimento web</span> focado em<span class="text-green-600"> resultados</span>. Combinamos<span class="text-purple-600"> tecnologia de ponta</span> com <span class="text-red-600"> estratégias de negócios </span> para entregar <span class="text-cyan-600"> soluções</span> que realmente funcionam.
+            </p>
+    
+            <!-- Foto da equipe -->
+            <div class="flex justify-center">
+                <img src="images/ab3.jpg" alt="Nossa equipe" class="w-full max-w-3xl rounded-2xl shadow-lg">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contato" class="py-40">
+        <div class="container mx-auto px-6 max-w-5xl flex flex-col md:flex-row items-center">
+            <!-- Texto e Botão -->
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Pronto para transformar seu negócio?</h2>
+                
+                <p class="text-xl opacity-90 mb-6">
+                    Entre em contato agora mesmo e vamos conversar sobre seu projeto!
+                </p>
+    
+                <a href="https://wa.me/5547991532309" class="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:shadow-xl" target="_blank">
+                    Iniciar Conversa
+                </a>
+            </div>
+    
+            <!-- Imagem -->
+            <div class="md:w-1/2 flex justify-center mt-10 md:mt-0">
+                <img src="images/cont.jpg" alt="Pessoa segurando um smartphone" class="w-full max-w-sm rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Estúdio Pixel</h3>
+                    <p class="text-gray-400">Transformando ideias em soluções digitais</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contato</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i>(47) 99153-2309</li>
+                        <li><i class="fas fa-envelope mr-2"></i>contato@estudiopixel.net</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Redes Sociais</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-instagram text-2xl"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-linkedin text-2xl"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5547991532309" class="text-white hover:text-blue-400" target="_blank"><i class="fab fa-whatsapp text-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2025 Estúdio Pixel. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <script>
+        document.querySelector('a[href^="https://wa.me"]').addEventListener('click', function() {
+        gtag('event', 'conversion', {
+            'event_category': 'Contact',
+            'event_label': 'WhatsApp Click'
+        });
+        });
+    </script>
+</body>
+</html>
